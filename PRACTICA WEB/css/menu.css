@@ -1,0 +1,71 @@
+/*MENÚ*/
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor > li {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 7em;
+    margin: 1em;
+    margin-inline: 1em;
+    padding: 1em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    background-color: white;
+    box-shadow: 0em 0.3em 0.6em rgb(0,0,0,0.5);
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    line-height: 4em;
+}   
+
+.contenedor > li:hover {
+    transform: translateY(-1em) rotate(10deg);
+    transition: transform 450ms;
+    background-color: black;
+    color: white;
+    box-shadow: 0em 0.3em 0.6em rgb(0,0,0,0.5);
+}
+
+
+/*INFORMACIÓN*/
+
+.seccion1 {
+    display: grid;
+    height: 20em;
+    word-wrap: break-word;
+    grid-template-columns: 40% 3% 20%;
+    grid-template-rows: 25% 75%;
+    padding: 1em;   
+    justify-content: center;
+}
+
+/*Título*/
+.item1 {
+    grid-area: 1 / 1 / 1 / 1;
+    word-wrap: break-word
+}
+/*Texto*/
+.item2 {
+    grid-area: 2 / 1 / 2 / 1;
+    word-wrap: break-word;
+    font-size: 0.9em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+/*Imagen*/
+.item3 {
+    grid-area: 1 / 3 / 2 / 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img1 {
+    width:80%;
+    object-fit: contain;
+    margin-top: 2em;
+}

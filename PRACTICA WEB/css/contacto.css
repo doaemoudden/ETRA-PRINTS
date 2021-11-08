@@ -1,0 +1,31 @@
+/*C0NTACTO*/
+
+form{
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+/*Cajas de relleno de texto*/
+input{
+    width:100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+/*Botón enviar*/
+#boton{
+    background: rgb(67, 55, 70);
+    color: white;
+    padding:20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+    background:rgb(131, 118, 134);
+}

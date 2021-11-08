@@ -1,0 +1,25 @@
+/*Grid de las nubes*/
+.break {
+    display: grid;
+    width: 80%;
+    height:20em;
+    grid-template-columns: 25% 25% 25% auto;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    margin-bottom: 15em;
+}
+
+.nube1 {
+    grid-area: 1 / 1 ;
+}
+
+.nube2 {
+    grid-area: 2 / 2 ;
+}
+
+/*Imagen nube*/
+.nube {
+    width: 250%;
+    height: 200%;
+    object-fit: contain;
+}
